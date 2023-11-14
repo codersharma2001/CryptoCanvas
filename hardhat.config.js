@@ -10,7 +10,7 @@ module.exports = {
   networks: {
     hardhat: {},
     polygon_mumbai: {
-      url: "https://polygon-mumbai.g.alchemy.com/v2/0lErRnMkMzIsd-stkT5oiMaOkRAKaejK",
+      url: "https://polygon-mumbai.g.alchemy.com/v2/fR4vEe80xC7NJPrJEDNdxB4KdgQC-Jm8",
       accounts: [`4ceb13b28203c0b6947c10e92f77c772be07479b57c7b9f5d90f1510b851bf5b`],
     },
   },
