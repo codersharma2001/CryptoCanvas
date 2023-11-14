@@ -1,7 +1,7 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ["mayank-nft-marketplace.infura-ipfs.io"],
+    domains: ["marketplace-test.infura-ipfs.io"],
     formats: ["image/webp"],
   },
 };
