@@ -186,7 +186,7 @@ export const NFTMarketplaceProvider = ({ children }) => {
     try {
       const provider = new ethers.providers.JsonRpcProvider(
         //--process.env.NEXT_PUBLIC_POLYGON_MUMBAI_RPC
-        "https://polygon-mumbai.g.alchemy.com/v2/0lErRnMkMzIsd-stkT5oiMaOkRAKaejK"
+        "https://polygon-mumbai.g.alchemy.com/v2/fR4vEe80xC7NJPrJEDNdxB4KdgQC-Jm8"
       );
 
       const contract = fetchContract(provider);
