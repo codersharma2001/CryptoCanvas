@@ -5,13 +5,13 @@ import { useRouter } from "next/router";
 import axios from "axios";
 import { create as ipfsHttpClient } from "ipfs-http-client";
 
-const projectId = '2LYXuDUCEtvAnptkvNmoNEcPv9L';
-const projectSecretKey = '9dcee29244b184c3952abdc21f6fdf91';
+const projectId = '2Y9qPybTOpbmceh4gt9ijjf6HCV';
+const projectSecretKey = 'fe1db3e19e74bc4fab0cabbb3153ee8a';
 const auth = `Basic ${Buffer.from(`${projectId}:${projectSecretKey}`).toString(
   "base64"
 )}`;
 
-const subdomain = 'https://mayank-nft-marketplace.infura-ipfs.io';
+const subdomain = 'https://marketplace-test.infura-ipfs.io';
 
 const client = ipfsHttpClient({
   host: "infura-ipfs.io",
